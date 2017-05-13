@@ -39,11 +39,13 @@ switch client.connect(timeout: 10) {
 ``` swift
 let data: Data = // ...
 let result = client.send(data: data)
+// or:
+let result = client.send(string: "string")
 ```
 
 ``` swift
 // [Int8]?
-var data = client.read(1024*10)
+var data = client.read(length: 1024*10)
 ```
 
 ``` swift
@@ -87,7 +89,7 @@ switch client.connect(timeout: 60) {
   case .success:
     switch client.send(string: "This is a Message" ) {
       case .success:
-        guard let data = client.read(1024 * 10) else {
+        guard let data = client.read(length: 1024 * 10) else {
           // ... goes wrong
           return
         }

@@ -9,6 +9,7 @@
 import Foundation
 
 open class UDPClient: Socketing {
+    
     public override init(address: String, port: Int32) {
         let remoteipbuff: [Int8] = [Int8](repeating: 0x0,count: 16)
         let ret = c_c_udp_socket_get_server_ip(address, ip: remoteipbuff)
@@ -82,14 +83,14 @@ open class UDPClient: Socketing {
     }
     
     //TODO add multycast and boardcast
-    open func recv(_ expectlen: Int) -> ([Socketing.Byte]?, String, Int) {
+    open func recv(length: Int) -> Socketing.ReceivedInfo {
         guard let fd = self.fd else {
             return (nil, "no ip", 0)
         }
-        var buff: [Socketing.Byte] = Array<Socketing.Byte>(repeating: 0x0, count: expectlen)
+        var buff: [Socketing.Byte] = Array<Socketing.Byte>(repeating: 0x0, count: length)
         var remoteipbuff: [Int8] = [Int8](repeating: 0x0, count: 16)
         var remoteport: Int32 = 0
-        let readLen: Int32 = c_c_udp_socket_recive(fd, buff: buff, len: Int32(expectlen), ip: &remoteipbuff, port: &remoteport)
+        let readLen: Int32 = c_c_udp_socket_recive(fd, buff: buff, len: Int32(length), ip: &remoteipbuff, port: &remoteport)
         let port: Int = Int(remoteport)
         let address = String(cString: remoteipbuff, encoding: String.Encoding.utf8) ?? ""
         

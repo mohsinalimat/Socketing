@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+public extension Socketing {
+    public typealias ReceivedInfo = (data: [Socketing.Byte]?, address: String, port: Int)
+}

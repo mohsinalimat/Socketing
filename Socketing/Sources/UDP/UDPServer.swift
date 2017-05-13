@@ -10,8 +10,6 @@ import Foundation
 
 open class UDPServer: Socketing {
     
-    public typealias ReceivedInfo = (data: [Socketing.Byte]?, address: String, port: Int)
-    
     public override init(address: String, port: Int32) {
         super.init(address: address, port: port)
         
@@ -22,7 +20,7 @@ open class UDPServer: Socketing {
     }
     
     //TODO add multycast and boardcast
-    open func recv(_ expectlen: Int) -> UDPServer.ReceivedInfo {
+    open func recv(_ expectlen: Int) -> Socketing.ReceivedInfo {
         if let fd = self.fd {
             var buff: [UDPServer.Byte] = Array<UDPServer.Byte>(repeating: 0x0,count: expectlen)
             var remoteipbuff: [Int8] = [Int8](repeating: 0x0,count: 16)

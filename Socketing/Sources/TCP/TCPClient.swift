@@ -95,13 +95,13 @@ open class TCPClient: Socketing {
      * read data with expect length
      * return success or fail with message
      */
-    open func read(_ expectlen:Int, timeout:Int = -1) -> [Socketing.Byte]? {
+    open func read(length: Int, timeout: Int = -1) -> [Socketing.Byte]? {
         guard let fd: Int32 = self.fd else { return nil }
         
-        var buff = Array<Socketing.Byte>(repeating: 0x0,count: expectlen)
-        let readLen = c_c_tcp_socket_pull(fd, buff: &buff, len: Int32(expectlen), timeout: Int32(timeout))
+        var buff = Array<Socketing.Byte>(repeating: 0x0,count: length)
+        let readLen = c_c_tcp_socket_pull(fd, buff: &buff, len: Int32(length), timeout: Int32(timeout))
         if readLen <= 0 { return nil }
-        let rs = buff[0...Int(readLen-1)]
+        let rs = buff[0...Int(readLen - 1)]
         let data: [Socketing.Byte] = Array(rs)
         
         return data
