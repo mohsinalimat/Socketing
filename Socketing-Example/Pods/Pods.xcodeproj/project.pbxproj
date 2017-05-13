@@ -8,24 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		0483C6CFBAB44DAE262FBD157612B587 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		0BD2FBF50C30FC24F782D2ADE9488F7A /* UDPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3E6892776E96EBBB713F97B6413D87 /* UDPServer.swift */; };
-		2ACA28C0E7CBEDA142EB01E52B0BF599 /* UDPSocket.c in Sources */ = {isa = PBXBuildFile; fileRef = C43D6B8D4D78732241A0E496430B4F21 /* UDPSocket.c */; };
-		2F22ABAF24B9C2202D2838B7D85DFE4A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500F3160DC4647EA66E97077351828E3 /* Result.swift */; };
-		3F794729EBAA3D415EEC20D11FD990D2 /* TCPBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0696704876A65E025AD5BD89973D4558 /* TCPBridge.swift */; };
-		467FFEE79551E20E1DE7CFBE6D747B1E /* UDPBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A290F1413ED7E99D1F01E99CFAC73238 /* UDPBridge.swift */; };
+		0E476B21D2D72AC28A8FC00DA0357DDB /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D814CF4379603AA27357985A446F428 /* Value.swift */; };
+		0FD1755CD9D03CD0EFC3071C77EA84EA /* UDPSocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 3AC9E5B87F69CA8AEF2B64DDC792F2BB /* UDPSocket.c */; };
+		106DD37DE487B4EAE39FAB5F8E2A3BFE /* UDPBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36FB6BA4B251823E2B3672D89859C60 /* UDPBridge.swift */; };
+		270D9B7D2E0C2BBAADDC736D4D2A5ABE /* TCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C919475970C9A6F75CB64C9619B3792 /* TCPClient.swift */; };
+		471D4DD298DA0956993D628480798DE7 /* Byte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DF5D9AC875272FF50C25EDA68FBB70 /* Byte.swift */; };
 		4987BF4F54350A954ACF5457DB9D8988 /* Pods-Socketing-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7754CC3B7A0C3447AC89F1085FBB7642 /* Pods-Socketing-Example-dummy.m */; };
-		4EA5F74A19A8B88B60AD1E36B85EF1EA /* TCPSocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 2247B5958351371F1ABAD78871D3C757 /* TCPSocket.c */; };
-		531EF010C1E1D4792D187F37CB808507 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3DA9EFBEE1E975A6C7AD017DC92459 /* Error.swift */; };
-		8EE350FCFCAD5D95644D3CAA09DB3505 /* Socketing.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E115EF2A2F77D0B32FCCD0D3D9E4648 /* Socketing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F7D68DD7202DE0E4AD2FA37881D8991 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B83FC588C4D1B05FD77E449D4AA807 /* Error.swift */; };
+		85B3E85A1C0B562B51C7E401AA4008CC /* UDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336F90DE9222A23CD0596A3AF4471857 /* UDPClient.swift */; };
+		8EE350FCFCAD5D95644D3CAA09DB3505 /* Socketing.h in Headers */ = {isa = PBXBuildFile; fileRef = 7643CFEACB23811E782EED324D02E302 /* Socketing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		923F88983B88FDC0CF0BC5A13020037C /* TCPSocket.c in Sources */ = {isa = PBXBuildFile; fileRef = F7653D4F40D8FCD3834C49122FC213A8 /* TCPSocket.c */; };
 		9A483A7E98CAF651D7A45C143568B158 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		9BA946A176DF425EBC620F18F8354D0F /* Socketing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ED9C1B5271B7FF3E06F3BB57043BC5 /* Socketing-dummy.m */; };
-		9DB07237AA06024DB7B446EEB24D5065 /* UDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337E5448C107301D93D88398069087B4 /* UDPClient.swift */; };
-		A67BC7826E89DB7C06BA2A2C114870F6 /* Byte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D8B10F734C8F074A785FDD247B5D27 /* Byte.swift */; };
 		AA2E9280478C6D67DC0514796AB12336 /* Socketing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0528046D0C3AD00138F7D06DCBF6BD /* Socketing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEB118EBE0DBB7A5F5FCAB4D112BA84A /* TCPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB157AD5F576C2028C920C9A4A04899 /* TCPServer.swift */; };
+		AB81981F4599194614EA1CAB84B2E3C2 /* UDPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3082986B2C16F27FDFACCA167F24714E /* UDPServer.swift */; };
+		BDCB867F6A306B41FE35F516EE179F8F /* TCPBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD0274C4B122AAEBF0A5D7F43FEB3A2 /* TCPBridge.swift */; };
+		CF1354AF7D3B2749BF9B006CF6926CEE /* Socketing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ED9C1B5271B7FF3E06F3BB57043BC5 /* Socketing-dummy.m */; };
+		D5024FC5D0C3F039AAE495640E2653CB /* TCPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636AB5830E2217CEEE85E20E22BFAAE0 /* TCPServer.swift */; };
 		D9913C78D1959E33AA35E61B9CDD665B /* Pods-Socketing-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 742B9A5260E1F8A1FC88222F9D401F8A /* Pods-Socketing-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAF7CFE898794698868C814441A90210 /* Socketing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFA137B25AE64073F3D21D4C3620AA6 /* Socketing.swift */; };
-		DC8C132D65CD31ED677BCF560F7B961D /* TCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA1036ABAB6C7FCDCED09C4F30E63D /* TCPClient.swift */; };
+		E8FC92192C20BEE999CBFFC58B4BBF42 /* Socketing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56B876B5E6B7D3ADA0FFEA37A831E0 /* Socketing.swift */; };
+		F6043707D6E304751963D8F1F02207A8 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AFF3F9C87E2A94DEE6586DB15DD40A /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,37 +40,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0696704876A65E025AD5BD89973D4558 /* TCPBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TCPBridge.swift; sourceTree = "<group>"; };
 		0C72C5FA0450BB1ABB82D73BB9CACF10 /* Pods-Socketing-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Socketing-Example-frameworks.sh"; sourceTree = "<group>"; };
-		0E115EF2A2F77D0B32FCCD0D3D9E4648 /* Socketing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Socketing.h; sourceTree = "<group>"; };
+		1C919475970C9A6F75CB64C9619B3792 /* TCPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TCPClient.swift; sourceTree = "<group>"; };
 		1D241D184A914F9CE5F829C16793AAA5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2247B5958351371F1ABAD78871D3C757 /* TCPSocket.c */ = {isa = PBXFileReference; includeInIndex = 1; path = TCPSocket.c; sourceTree = "<group>"; };
-		2CFA137B25AE64073F3D21D4C3620AA6 /* Socketing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Socketing.swift; sourceTree = "<group>"; };
-		337E5448C107301D93D88398069087B4 /* UDPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UDPClient.swift; sourceTree = "<group>"; };
-		43D8B10F734C8F074A785FDD247B5D27 /* Byte.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Byte.swift; sourceTree = "<group>"; };
-		500F3160DC4647EA66E97077351828E3 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		1D814CF4379603AA27357985A446F428 /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Value.swift; sourceTree = "<group>"; };
+		25AFF3F9C87E2A94DEE6586DB15DD40A /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		27DF5D9AC875272FF50C25EDA68FBB70 /* Byte.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Byte.swift; sourceTree = "<group>"; };
+		3082986B2C16F27FDFACCA167F24714E /* UDPServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UDPServer.swift; sourceTree = "<group>"; };
+		336F90DE9222A23CD0596A3AF4471857 /* UDPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UDPClient.swift; sourceTree = "<group>"; };
+		3AC9E5B87F69CA8AEF2B64DDC792F2BB /* UDPSocket.c */ = {isa = PBXFileReference; includeInIndex = 1; path = UDPSocket.c; sourceTree = "<group>"; };
+		48B83FC588C4D1B05FD77E449D4AA807 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		5BF4CA579AE05E691473D9E842B38462 /* Socketing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Socketing.modulemap; sourceTree = "<group>"; };
 		6297F1ACE5E979F4C42A026F3DA2B403 /* Pods-Socketing-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Socketing-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		636AB5830E2217CEEE85E20E22BFAAE0 /* TCPServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TCPServer.swift; sourceTree = "<group>"; };
 		638627686E080C1E76799DAB075467E9 /* Socketing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Socketing-prefix.pch"; sourceTree = "<group>"; };
 		6424A6EAD29C06068E453ED4AA15C54D /* Pods-Socketing-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Socketing-Example-resources.sh"; sourceTree = "<group>"; };
 		65CD1CC67C956D23BA4C10C6BBE0B31C /* Pods-Socketing-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Socketing-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6EB157AD5F576C2028C920C9A4A04899 /* TCPServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TCPServer.swift; sourceTree = "<group>"; };
 		742B9A5260E1F8A1FC88222F9D401F8A /* Pods-Socketing-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Socketing-Example-umbrella.h"; sourceTree = "<group>"; };
+		7643CFEACB23811E782EED324D02E302 /* Socketing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Socketing.h; sourceTree = "<group>"; };
 		76A3B3161B6FB30706243C51DA556687 /* Pods-Socketing-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Socketing-Example.modulemap"; sourceTree = "<group>"; };
 		7754CC3B7A0C3447AC89F1085FBB7642 /* Pods-Socketing-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Socketing-Example-dummy.m"; sourceTree = "<group>"; };
 		80A7BBAAB169926138874C2244AA9758 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81459DF040860F38E71FAE416E474DF3 /* Pods_Socketing_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Socketing_Example.framework; path = "Pods-Socketing-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81ED9C1B5271B7FF3E06F3BB57043BC5 /* Socketing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Socketing-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B56B876B5E6B7D3ADA0FFEA37A831E0 /* Socketing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Socketing.swift; sourceTree = "<group>"; };
 		A1EC0B2F3FD881F6E88B85047568E50D /* Pods-Socketing-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Socketing-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A290F1413ED7E99D1F01E99CFAC73238 /* UDPBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UDPBridge.swift; sourceTree = "<group>"; };
-		A2BA1036ABAB6C7FCDCED09C4F30E63D /* TCPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TCPClient.swift; sourceTree = "<group>"; };
 		A92C8C246B746C3342D590A6F0542800 /* Socketing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Socketing.xcconfig; sourceTree = "<group>"; };
-		AC3DA9EFBEE1E975A6C7AD017DC92459 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
-		C43D6B8D4D78732241A0E496430B4F21 /* UDPSocket.c */ = {isa = PBXFileReference; includeInIndex = 1; path = UDPSocket.c; sourceTree = "<group>"; };
-		DF3E6892776E96EBBB713F97B6413D87 /* UDPServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UDPServer.swift; sourceTree = "<group>"; };
+		C36FB6BA4B251823E2B3672D89859C60 /* UDPBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UDPBridge.swift; sourceTree = "<group>"; };
+		DDD0274C4B122AAEBF0A5D7F43FEB3A2 /* TCPBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TCPBridge.swift; sourceTree = "<group>"; };
 		F1926E98A0EB7BD94CBA1BE289DBA60E /* Pods-Socketing-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Socketing-Example.release.xcconfig"; sourceTree = "<group>"; };
+		F7653D4F40D8FCD3834C49122FC213A8 /* TCPSocket.c */ = {isa = PBXFileReference; includeInIndex = 1; path = TCPSocket.c; sourceTree = "<group>"; };
 		F863413E4237766685425360615C84D5 /* Socketing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Socketing.framework; path = Socketing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0528046D0C3AD00138F7D06DCBF6BD /* Socketing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Socketing-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,17 +96,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0ACA083E0B00283DDB3BF1B5DD26BF19 /* TCP */ = {
-			isa = PBXGroup;
-			children = (
-				0696704876A65E025AD5BD89973D4558 /* TCPBridge.swift */,
-				A2BA1036ABAB6C7FCDCED09C4F30E63D /* TCPClient.swift */,
-				6EB157AD5F576C2028C920C9A4A04899 /* TCPServer.swift */,
-			);
-			name = TCP;
-			path = TCP;
-			sourceTree = "<group>";
-		};
 		3048A4FF375EB53200F3FA238507EBD2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +113,16 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		35C9F4966A6D8D327BE471441B0B4EA8 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				F7653D4F40D8FCD3834C49122FC213A8 /* TCPSocket.c */,
+				3AC9E5B87F69CA8AEF2B64DDC792F2BB /* UDPSocket.c */,
+			);
+			name = C;
+			path = C;
+			sourceTree = "<group>";
+		};
 		36D50D5CBD5F5DD3F236CC4DFDFC6820 /* Socketing */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,10 +136,34 @@
 		41C09A41C3232CA29BFF7ECF4FB0474A /* Socketing */ = {
 			isa = PBXGroup;
 			children = (
-				B6F50F398C9E0C2AFE6011B4867DDEA2 /* Sources */,
+				42EF033D67BB179E26578CC5C478409A /* Sources */,
 			);
 			name = Socketing;
 			path = Socketing;
+			sourceTree = "<group>";
+		};
+		42EF033D67BB179E26578CC5C478409A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7643CFEACB23811E782EED324D02E302 /* Socketing.h */,
+				35C9F4966A6D8D327BE471441B0B4EA8 /* C */,
+				E9B156257E82CF4A5651188FE39D9AD7 /* Define */,
+				B97FACD3A6456A4D451C289463774293 /* TCP */,
+				4604E392902A98A1504F32DECA56E847 /* UDP */,
+			);
+			name = Sources;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4604E392902A98A1504F32DECA56E847 /* UDP */ = {
+			isa = PBXGroup;
+			children = (
+				C36FB6BA4B251823E2B3672D89859C60 /* UDPBridge.swift */,
+				336F90DE9222A23CD0596A3AF4471857 /* UDPClient.swift */,
+				3082986B2C16F27FDFACCA167F24714E /* UDPServer.swift */,
+			);
+			name = UDP;
+			path = UDP;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -150,16 +175,6 @@
 				3048A4FF375EB53200F3FA238507EBD2 /* Products */,
 				BDFADE6403FFD0D2D78D176989F5B806 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		850AB4AD8C011F745235CB387C8C3CA1 /* C */ = {
-			isa = PBXGroup;
-			children = (
-				2247B5958351371F1ABAD78871D3C757 /* TCPSocket.c */,
-				C43D6B8D4D78732241A0E496430B4F21 /* UDPSocket.c */,
-			);
-			name = C;
-			path = C;
 			sourceTree = "<group>";
 		};
 		92B7B7BD0E91B5E64A2F6554E7E59853 /* Pods-Socketing-Example */ = {
@@ -180,17 +195,15 @@
 			path = "Target Support Files/Pods-Socketing-Example";
 			sourceTree = "<group>";
 		};
-		B6F50F398C9E0C2AFE6011B4867DDEA2 /* Sources */ = {
+		B97FACD3A6456A4D451C289463774293 /* TCP */ = {
 			isa = PBXGroup;
 			children = (
-				0E115EF2A2F77D0B32FCCD0D3D9E4648 /* Socketing.h */,
-				850AB4AD8C011F745235CB387C8C3CA1 /* C */,
-				FE6852810A73911DC122E849FEAA0A13 /* Define */,
-				0ACA083E0B00283DDB3BF1B5DD26BF19 /* TCP */,
-				F33BF75054B5AD4BC4B8F61C3B11D686 /* UDP */,
+				DDD0274C4B122AAEBF0A5D7F43FEB3A2 /* TCPBridge.swift */,
+				1C919475970C9A6F75CB64C9619B3792 /* TCPClient.swift */,
+				636AB5830E2217CEEE85E20E22BFAAE0 /* TCPServer.swift */,
 			);
-			name = Sources;
-			path = Sources;
+			name = TCP;
+			path = TCP;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -217,15 +230,17 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F33BF75054B5AD4BC4B8F61C3B11D686 /* UDP */ = {
+		E9B156257E82CF4A5651188FE39D9AD7 /* Define */ = {
 			isa = PBXGroup;
 			children = (
-				A290F1413ED7E99D1F01E99CFAC73238 /* UDPBridge.swift */,
-				337E5448C107301D93D88398069087B4 /* UDPClient.swift */,
-				DF3E6892776E96EBBB713F97B6413D87 /* UDPServer.swift */,
+				27DF5D9AC875272FF50C25EDA68FBB70 /* Byte.swift */,
+				48B83FC588C4D1B05FD77E449D4AA807 /* Error.swift */,
+				25AFF3F9C87E2A94DEE6586DB15DD40A /* Result.swift */,
+				9B56B876B5E6B7D3ADA0FFEA37A831E0 /* Socketing.swift */,
+				1D814CF4379603AA27357985A446F428 /* Value.swift */,
 			);
-			name = UDP;
-			path = UDP;
+			name = Define;
+			path = Define;
 			sourceTree = "<group>";
 		};
 		F836EDA9ECF0F809F04EE0D3D7F7177C /* Support Files */ = {
@@ -240,18 +255,6 @@
 			);
 			name = "Support Files";
 			path = "Socketing-Example/Pods/Target Support Files/Socketing";
-			sourceTree = "<group>";
-		};
-		FE6852810A73911DC122E849FEAA0A13 /* Define */ = {
-			isa = PBXGroup;
-			children = (
-				43D8B10F734C8F074A785FDD247B5D27 /* Byte.swift */,
-				AC3DA9EFBEE1E975A6C7AD017DC92459 /* Error.swift */,
-				500F3160DC4647EA66E97077351828E3 /* Result.swift */,
-				2CFA137B25AE64073F3D21D4C3620AA6 /* Socketing.swift */,
-			);
-			name = Define;
-			path = Define;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,7 +284,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66C55CB5D9D3659200B56ABF89D2D88A /* Build configuration list for PBXNativeTarget "Socketing" */;
 			buildPhases = (
-				F820841D1A08563C25BF1C675519347A /* Sources */,
+				CA8B622FEC40B775FE655BF00EAFBA27 /* Sources */,
 				A0BDBA12FFAEE834BCBA08416A02490F /* Frameworks */,
 				848722BB30B85ECCEFF465058C8F67A7 /* Headers */,
 			);
@@ -348,23 +351,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F820841D1A08563C25BF1C675519347A /* Sources */ = {
+		CA8B622FEC40B775FE655BF00EAFBA27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A67BC7826E89DB7C06BA2A2C114870F6 /* Byte.swift in Sources */,
-				531EF010C1E1D4792D187F37CB808507 /* Error.swift in Sources */,
-				2F22ABAF24B9C2202D2838B7D85DFE4A /* Result.swift in Sources */,
-				9BA946A176DF425EBC620F18F8354D0F /* Socketing-dummy.m in Sources */,
-				DAF7CFE898794698868C814441A90210 /* Socketing.swift in Sources */,
-				3F794729EBAA3D415EEC20D11FD990D2 /* TCPBridge.swift in Sources */,
-				DC8C132D65CD31ED677BCF560F7B961D /* TCPClient.swift in Sources */,
-				AEB118EBE0DBB7A5F5FCAB4D112BA84A /* TCPServer.swift in Sources */,
-				4EA5F74A19A8B88B60AD1E36B85EF1EA /* TCPSocket.c in Sources */,
-				467FFEE79551E20E1DE7CFBE6D747B1E /* UDPBridge.swift in Sources */,
-				9DB07237AA06024DB7B446EEB24D5065 /* UDPClient.swift in Sources */,
-				0BD2FBF50C30FC24F782D2ADE9488F7A /* UDPServer.swift in Sources */,
-				2ACA28C0E7CBEDA142EB01E52B0BF599 /* UDPSocket.c in Sources */,
+				471D4DD298DA0956993D628480798DE7 /* Byte.swift in Sources */,
+				6F7D68DD7202DE0E4AD2FA37881D8991 /* Error.swift in Sources */,
+				F6043707D6E304751963D8F1F02207A8 /* Result.swift in Sources */,
+				CF1354AF7D3B2749BF9B006CF6926CEE /* Socketing-dummy.m in Sources */,
+				E8FC92192C20BEE999CBFFC58B4BBF42 /* Socketing.swift in Sources */,
+				BDCB867F6A306B41FE35F516EE179F8F /* TCPBridge.swift in Sources */,
+				270D9B7D2E0C2BBAADDC736D4D2A5ABE /* TCPClient.swift in Sources */,
+				D5024FC5D0C3F039AAE495640E2653CB /* TCPServer.swift in Sources */,
+				923F88983B88FDC0CF0BC5A13020037C /* TCPSocket.c in Sources */,
+				106DD37DE487B4EAE39FAB5F8E2A3BFE /* UDPBridge.swift in Sources */,
+				85B3E85A1C0B562B51C7E401AA4008CC /* UDPClient.swift in Sources */,
+				AB81981F4599194614EA1CAB84B2E3C2 /* UDPServer.swift in Sources */,
+				0FD1755CD9D03CD0EFC3071C77EA84EA /* UDPSocket.c in Sources */,
+				0E476B21D2D72AC28A8FC00DA0357DDB /* Value.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

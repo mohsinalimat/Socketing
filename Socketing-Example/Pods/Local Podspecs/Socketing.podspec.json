@@ -1,8 +1,8 @@
 {
   "name": "Socketing",
   "version": "1.0.0",
-  "summary": "An iOS/macOS Socket Framework.",
-  "description": "An iOS/macOS Socket Framework in Swift.",
+  "summary": "A minimal iOS/macOS Socket Framework.",
+  "description": "A minimal iOS/macOS Socket Framework in Swift.",
   "homepage": "https://github.com/Meniny/Socketing",
   "license": "MIT",
   "authors": {
