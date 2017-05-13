@@ -45,7 +45,7 @@ class ViewController: UIViewController {
     
     func echo(client c: TCP.Client) {
         self.appendToTextField(string: "[Server] New Client: \(c.address)[\(c.port)]")
-        let d = c.read(1024*10)
+        let d = c.read(length: 1024*10)
         c.send(data: d!)
         c.close()
     }
@@ -78,7 +78,7 @@ class ViewController: UIViewController {
     }
     
     private func readResponse(from client: TCP.Client) -> String? {
-        guard let response = client.read(1024 * 10) else { return nil }
+        guard let response = client.read(length: 1024 * 10) else { return nil }
         return String(bytes: response, encoding: .utf8)
     }
     
