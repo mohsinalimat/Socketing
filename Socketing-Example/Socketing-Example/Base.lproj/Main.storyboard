@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="yVY-Vw-dI5">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ANw-Uw-BV7">
+            <objects>
+                <viewController id="yVY-Vw-dI5" customClass="ViewController" customModule="Socketing_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YoN-bZ-GUU"/>
+                        <viewControllerLayoutGuide type="bottom" id="wqS-n4-TMz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kRN-ib-vNb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eLP-4g-HyC">
+                                <rect key="frame" x="32" y="36" width="311" height="615"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="n48-sD-a8f">
+                                        <rect key="frame" x="0.0" y="0.0" width="311" height="527"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JBf-Pm-WQt">
+                                        <rect key="frame" x="0.0" y="527" width="311" height="88"/>
+                                        <state key="normal" title="Send data"/>
+                                        <connections>
+                                            <action selector="sendButtonAction" destination="yVY-Vw-dI5" eventType="touchUpInside" id="yH8-Ou-ETZ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wqS-n4-TMz" firstAttribute="top" secondItem="eLP-4g-HyC" secondAttribute="bottom" constant="16" id="1TI-dV-pNa"/>
+                            <constraint firstItem="eLP-4g-HyC" firstAttribute="top" secondItem="YoN-bZ-GUU" secondAttribute="bottom" constant="16" id="YQc-Jf-vdd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eLP-4g-HyC" secondAttribute="trailing" constant="16" id="jpV-Rq-iQP"/>
+                            <constraint firstItem="eLP-4g-HyC" firstAttribute="leading" secondItem="kRN-ib-vNb" secondAttribute="leadingMargin" constant="16" id="rpg-bG-3uO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="n48-sD-a8f" id="gvq-UY-O7h"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Im-rJ-eDf" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+</document>

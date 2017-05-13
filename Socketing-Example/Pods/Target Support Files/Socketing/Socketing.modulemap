@@ -1,0 +1,6 @@
+framework module Socketing {
+  umbrella header "Socketing-umbrella.h"
+
+  export *
+  module * { export * }
+}

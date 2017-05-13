@@ -1,0 +1,16 @@
+PODS:
+  - Socketing (1.0.0)
+
+DEPENDENCIES:
+  - Socketing (from `../`)
+
+EXTERNAL SOURCES:
+  Socketing:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Socketing: 80c1a5e4b103ad100e43dbaec8191d9790873200
+
+PODFILE CHECKSUM: b04b081a7512a6242e723bbf7e648357e4a6b96a
+
+COCOAPODS: 1.2.1

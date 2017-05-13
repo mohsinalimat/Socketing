@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CDCEB3B1EC6E5F4008690AF /* Socketing.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CDCEABB1EC6E254008690AF /* Socketing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CDCEB3C1EC6E5FA008690AF /* Socketing.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CDCEABB1EC6E254008690AF /* Socketing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CDCEB411EC6E93A008690AF /* Socketing.h in Sources */ = {isa = PBXBuildFile; fileRef = 5CDCEABB1EC6E254008690AF /* Socketing.h */; };
+		5CDCEB5F1EC6E997008690AF /* TCPSocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 5CDCEB501EC6E997008690AF /* TCPSocket.c */; };
+		5CDCEB601EC6E997008690AF /* UDPSocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 5CDCEB511EC6E997008690AF /* UDPSocket.c */; };
+		5CDCEB611EC6E997008690AF /* Byte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDCEB531EC6E997008690AF /* Byte.swift */; };
+		5CDCEB621EC6E997008690AF /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDCEB541EC6E997008690AF /* Error.swift */; };
+		5CDCEB631EC6E997008690AF /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDCEB551EC6E997008690AF /* Result.swift */; };
+		5CDCEB641EC6E997008690AF /* Socketing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDCEB561EC6E997008690AF /* Socketing.swift */; };
+		5CDCEB651EC6E997008690AF /* TCPBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDCEB581EC6E997008690AF /* TCPBridge.swift */; };
+		5CDCEB661EC6E997008690AF /* TCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDCEB591EC6E997008690AF /* TCPClient.swift */; };
+		5CDCEB671EC6E997008690AF /* TCPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDCEB5A1EC6E997008690AF /* TCPServer.swift */; };
+		5CDCEB681EC6E997008690AF /* UDPBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDCEB5C1EC6E997008690AF /* UDPBridge.swift */; };
+		5CDCEB691EC6E997008690AF /* UDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDCEB5D1EC6E997008690AF /* UDPClient.swift */; };
+		5CDCEB6A1EC6E997008690AF /* UDPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDCEB5E1EC6E997008690AF /* UDPServer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5CDCEAAF1EC6E237008690AF /* SocketingiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketingiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDCEAB31EC6E237008690AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CDCEABB1EC6E254008690AF /* Socketing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Socketing.h; sourceTree = "<group>"; };
+		5CDCEAC21EC6E26B008690AF /* SocketingmacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketingmacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDCEAC51EC6E26B008690AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CDCEB501EC6E997008690AF /* TCPSocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TCPSocket.c; sourceTree = "<group>"; };
+		5CDCEB511EC6E997008690AF /* UDPSocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = UDPSocket.c; sourceTree = "<group>"; };
+		5CDCEB531EC6E997008690AF /* Byte.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Byte.swift; sourceTree = "<group>"; };
+		5CDCEB541EC6E997008690AF /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		5CDCEB551EC6E997008690AF /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		5CDCEB561EC6E997008690AF /* Socketing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Socketing.swift; sourceTree = "<group>"; };
+		5CDCEB581EC6E997008690AF /* TCPBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPBridge.swift; sourceTree = "<group>"; };
+		5CDCEB591EC6E997008690AF /* TCPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPClient.swift; sourceTree = "<group>"; };
+		5CDCEB5A1EC6E997008690AF /* TCPServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPServer.swift; sourceTree = "<group>"; };
+		5CDCEB5C1EC6E997008690AF /* UDPBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDPBridge.swift; sourceTree = "<group>"; };
+		5CDCEB5D1EC6E997008690AF /* UDPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDPClient.swift; sourceTree = "<group>"; };
+		5CDCEB5E1EC6E997008690AF /* UDPServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDPServer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CDCEAAB1EC6E237008690AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDCEABE1EC6E26B008690AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CDCEAA51EC6E237008690AF = {
+			isa = PBXGroup;
+			children = (
+				5CDCEABA1EC6E254008690AF /* Sources */,
+				5CDCEAB11EC6E237008690AF /* Socketing-iOS */,
+				5CDCEAC31EC6E26B008690AF /* Socketing-macOS */,
+				5CDCEAB01EC6E237008690AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CDCEAB01EC6E237008690AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CDCEAAF1EC6E237008690AF /* SocketingiOS.framework */,
+				5CDCEAC21EC6E26B008690AF /* SocketingmacOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CDCEAB11EC6E237008690AF /* Socketing-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5CDCEAB31EC6E237008690AF /* Info.plist */,
+			);
+			name = "Socketing-iOS";
+			path = Socketing;
+			sourceTree = "<group>";
+		};
+		5CDCEABA1EC6E254008690AF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5CDCEABB1EC6E254008690AF /* Socketing.h */,
+				5CDCEB4F1EC6E997008690AF /* C */,
+				5CDCEB521EC6E997008690AF /* Define */,
+				5CDCEB571EC6E997008690AF /* TCP */,
+				5CDCEB5B1EC6E997008690AF /* UDP */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5CDCEAC31EC6E26B008690AF /* Socketing-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				5CDCEAC51EC6E26B008690AF /* Info.plist */,
+			);
+			path = "Socketing-macOS";
+			sourceTree = "<group>";
+		};
+		5CDCEB4F1EC6E997008690AF /* C */ = {
+			isa = PBXGroup;
+			children = (
+				5CDCEB501EC6E997008690AF /* TCPSocket.c */,
+				5CDCEB511EC6E997008690AF /* UDPSocket.c */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		5CDCEB521EC6E997008690AF /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				5CDCEB531EC6E997008690AF /* Byte.swift */,
+				5CDCEB541EC6E997008690AF /* Error.swift */,
+				5CDCEB551EC6E997008690AF /* Result.swift */,
+				5CDCEB561EC6E997008690AF /* Socketing.swift */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		5CDCEB571EC6E997008690AF /* TCP */ = {
+			isa = PBXGroup;
+			children = (
+				5CDCEB581EC6E997008690AF /* TCPBridge.swift */,
+				5CDCEB591EC6E997008690AF /* TCPClient.swift */,
+				5CDCEB5A1EC6E997008690AF /* TCPServer.swift */,
+			);
+			path = TCP;
+			sourceTree = "<group>";
+		};
+		5CDCEB5B1EC6E997008690AF /* UDP */ = {
+			isa = PBXGroup;
+			children = (
+				5CDCEB5C1EC6E997008690AF /* UDPBridge.swift */,
+				5CDCEB5D1EC6E997008690AF /* UDPClient.swift */,
+				5CDCEB5E1EC6E997008690AF /* UDPServer.swift */,
+			);
+			path = UDP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5CDCEAAC1EC6E237008690AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDCEB3C1EC6E5FA008690AF /* Socketing.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDCEABF1EC6E26B008690AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDCEB3B1EC6E5F4008690AF /* Socketing.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5CDCEAAE1EC6E237008690AF /* SocketingiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CDCEAB71EC6E237008690AF /* Build configuration list for PBXNativeTarget "SocketingiOS" */;
+			buildPhases = (
+				5CDCEAAA1EC6E237008690AF /* Sources */,
+				5CDCEAAB1EC6E237008690AF /* Frameworks */,
+				5CDCEAAC1EC6E237008690AF /* Headers */,
+				5CDCEAAD1EC6E237008690AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketingiOS;
+			productName = Socketing;
+			productReference = 5CDCEAAF1EC6E237008690AF /* SocketingiOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5CDCEAC11EC6E26B008690AF /* SocketingmacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CDCEAC71EC6E26B008690AF /* Build configuration list for PBXNativeTarget "SocketingmacOS" */;
+			buildPhases = (
+				5CDCEABD1EC6E26B008690AF /* Sources */,
+				5CDCEABE1EC6E26B008690AF /* Frameworks */,
+				5CDCEABF1EC6E26B008690AF /* Headers */,
+				5CDCEAC01EC6E26B008690AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketingmacOS;
+			productName = "Socketing-macOS";
+			productReference = 5CDCEAC21EC6E26B008690AF /* SocketingmacOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CDCEAA61EC6E237008690AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Meniny;
+				TargetAttributes = {
+					5CDCEAAE1EC6E237008690AF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 63YL5QDMNS;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					5CDCEAC11EC6E26B008690AF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 63YL5QDMNS;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5CDCEAA91EC6E237008690AF /* Build configuration list for PBXProject "Socketing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CDCEAA51EC6E237008690AF;
+			productRefGroup = 5CDCEAB01EC6E237008690AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CDCEAAE1EC6E237008690AF /* SocketingiOS */,
+				5CDCEAC11EC6E26B008690AF /* SocketingmacOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CDCEAAD1EC6E237008690AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDCEAC01EC6E26B008690AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CDCEAAA1EC6E237008690AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDCEB661EC6E997008690AF /* TCPClient.swift in Sources */,
+				5CDCEB621EC6E997008690AF /* Error.swift in Sources */,
+				5CDCEB6A1EC6E997008690AF /* UDPServer.swift in Sources */,
+				5CDCEB641EC6E997008690AF /* Socketing.swift in Sources */,
+				5CDCEB631EC6E997008690AF /* Result.swift in Sources */,
+				5CDCEB611EC6E997008690AF /* Byte.swift in Sources */,
+				5CDCEB601EC6E997008690AF /* UDPSocket.c in Sources */,
+				5CDCEB691EC6E997008690AF /* UDPClient.swift in Sources */,
+				5CDCEB651EC6E997008690AF /* TCPBridge.swift in Sources */,
+				5CDCEB5F1EC6E997008690AF /* TCPSocket.c in Sources */,
+				5CDCEB681EC6E997008690AF /* UDPBridge.swift in Sources */,
+				5CDCEB671EC6E997008690AF /* TCPServer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDCEABD1EC6E26B008690AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDCEB411EC6E93A008690AF /* Socketing.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5CDCEAB51EC6E237008690AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5CDCEAB61EC6E237008690AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CDCEAB81EC6E237008690AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 63YL5QDMNS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Socketing/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.meniny.Socketing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5CDCEAB91EC6E237008690AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 63YL5QDMNS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Socketing/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.meniny.Socketing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5CDCEAC81EC6E26B008690AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 63YL5QDMNS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Socketing-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.meniny.Socketing-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5CDCEAC91EC6E26B008690AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 63YL5QDMNS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Socketing-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.meniny.Socketing-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CDCEAA91EC6E237008690AF /* Build configuration list for PBXProject "Socketing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDCEAB51EC6E237008690AF /* Debug */,
+				5CDCEAB61EC6E237008690AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CDCEAB71EC6E237008690AF /* Build configuration list for PBXNativeTarget "SocketingiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDCEAB81EC6E237008690AF /* Debug */,
+				5CDCEAB91EC6E237008690AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CDCEAC71EC6E26B008690AF /* Build configuration list for PBXNativeTarget "SocketingmacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDCEAC81EC6E26B008690AF /* Debug */,
+				5CDCEAC91EC6E26B008690AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CDCEAA61EC6E237008690AF /* Project object */;
+}
