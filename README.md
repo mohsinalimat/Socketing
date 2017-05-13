@@ -107,7 +107,7 @@ switch client.connect(timeout: 60) {
 #### Server
 
 ``` swift
-let server = TCPServer(address: "127.0.0.1", port: 8080)
+let server = TCP.Server(address: "127.0.0.1", port: 8080)
 
 switch server.listen() {
   case .success:
